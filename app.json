@@ -5,7 +5,8 @@
     "pages/tutors/index",
     "pages/tutors/bookings",
     "pages/tutors/update",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/students/bookings"
   ],
   "window":{
     "backgroundTextStyle":"light",

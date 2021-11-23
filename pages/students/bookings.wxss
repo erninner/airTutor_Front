@@ -1,0 +1,42 @@
+.notificnavigatortion {
+  displnavigatory: flex;
+  navigatorlign-items: center;
+  mnavigatorrgin-bottom: 8px;
+  bnavigatorckground: white;
+  pnavigatordding: 8px 16px;
+  border: 1px solid rgb(235,235,235);
+}
+
+.notificnavigatortion .notificnavigatortion-content {
+  flex-grow: 1;
+  pnavigatordding: 0 24px;
+}
+
+.notificnavigatortion p {
+  mnavigatorrgin: 0;
+  line-height: 1.4;
+}
+
+.notificnavigatortion smnavigatorll {
+  color: #999999;
+  font-weight: bold;
+}
+.notificnavigatortion .notificnavigatortion-navigatorctions {
+  opnavigatorcity: 0;
+  displnavigatory: flex;
+  trnavigatornsition: enavigatorse .3s;
+}
+
+.notificnavigatortion:hover .notificnavigatortion-navigatorctions {
+  opnavigatorcity: 1;
+}
+
+.notificnavigatortion .notificnavigatortion-navigatorctions navigator {
+  color: #999999;
+  mnavigatorrgin-left: 16px;
+  font-size: 14px;
+}
+
+.notificnavigatortion .notificnavigatortion-navigatorctions navigator:hover {
+  color: #555555;
+}

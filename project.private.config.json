@@ -23,6 +23,12 @@
           "pathName": "pages/tutors/bookings",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/students/bookings",
+          "pathName": "pages/students/bookings",
+          "query": "",
+          "scene": null
         }
       ]
     }
