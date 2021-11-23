@@ -4,6 +4,7 @@
     "pages/index/index",
     "pages/tutors/index",
     "pages/tutors/bookings",
+    "pages/tutors/update",
     "pages/logs/logs"
   ],
   "window":{
