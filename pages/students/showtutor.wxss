@@ -1,1 +1,23 @@
 /* pages/students/showtutor.wxss */
+
+.title{
+  font-size: larger;
+  padding-bottom: 10rpx;
+}
+
+.input{
+  border: 1px solid rgb(228, 228, 228) ;
+  border-radius: 4px;
+  /* overflow-wrap: break-word; */
+  padding: 20rpx;
+  width: inherit;   
+}
+
+.h1 {
+  margin: 0;
+  color: rgb(54, 54, 54);
+  text-shadow: 2rpx 2rpx 6rpx rgba(0,0,0,0.2);
+  font-size: 64rpx;
+  font-weight: bold;
+  padding-bottom: 40rpx
+}

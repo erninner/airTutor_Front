@@ -18,10 +18,10 @@
   <view class="card-trip-infos">
     <view>
       <h2>Tutor Name</h2>
-      <text>Course Description</text>
+      <view><text>Course Description</text></view>
     </view>
     <h2 class="card-trip-pricing">¥1999</h2>
-    <image src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
+    <!-- <image src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" /> -->
   </view>
 </view>
 
