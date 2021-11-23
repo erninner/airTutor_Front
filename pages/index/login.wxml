@@ -1,0 +1,7 @@
+<!--pages/index/login.wxml-->
+<text>pages/index/login.wxml</text>
+
+<view>
+<navigator class="btn btn-ghost" href="#">I'm a Student</navigator>
+<navigator class="btn btn-ghost" href="#">I'm a Tutor</navigator>
+</view>
