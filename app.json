@@ -2,6 +2,7 @@
   "pages":[
     "pages/index/login",
     "pages/index/index",
+    "pages/students/index",
     "pages/tutors/index",
     "pages/tutors/bookings",
     "pages/tutors/update",

@@ -29,6 +29,12 @@
           "pathName": "pages/tutors/update",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/students/index",
+          "pathName": "pages/students/index",
+          "query": "",
+          "scene": null
         }
       ]
     }
