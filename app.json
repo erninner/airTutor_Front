@@ -1,6 +1,8 @@
 {
   "pages":[
+    "pages/index/login",
     "pages/index/index",
+    "pages/tutors/index",
     "pages/logs/logs"
   ],
   "window":{
