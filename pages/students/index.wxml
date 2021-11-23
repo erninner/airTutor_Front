@@ -4,12 +4,12 @@
 <view>
 <!-- search bar -->
   <form novalidate="novalidate" class="simple_form search" action="/" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
-    <div class="search-form-control form-group">
+    <view class="search-form-control form-group">
       <input class="form-control string required" type="text" name="search[query]" id="search_query" />
       <button name="button" type="submit" class="btn btn-flat">
         <i class="fas fa-search"></i> Search
       </button>
-    </div>
+    </view>
   </form>
 
 <!-- tutor cards show -->
@@ -18,7 +18,7 @@
   <view class="card-trip-infos">
     <view>
       <h2>Tutor Name</h2>
-      <p>Course Description</p>
+      <text>Course Description</text>
     </view>
     <h2 class="card-trip-pricing">¥1999</h2>
     <image src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
