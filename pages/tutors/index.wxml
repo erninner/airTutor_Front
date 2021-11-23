@@ -9,7 +9,7 @@
       <input class="input" name="name" placeholder="your name" value="{{name}}" />
 
     <view class="name" style="padding-top: 40rpx">Course Description</view>
-      <textarea class="input" name="text" placeholder="course description" value="{{text}}" />
+      <textarea class="input" name="text" placeholder="your course offering and description" value="{{text}}" />
 
       <view class="name">Education Background</view>
         <input class="input" name="name" placeholder="your alma mater" value="{{name}}" />
