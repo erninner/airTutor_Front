@@ -2,6 +2,6 @@
 <text>pages/index/login.wxml</text>
 
 <view>
-<navigator class="btn btn-ghost" href="#">I'm a Student</navigator>
-<navigator class="btn btn-ghost" href="#">I'm a Tutor</navigator>
+<navigator class="btn btn-ghost" url="pages/students/index">I'm a Student</navigator>
+<navigator class="btn btn-ghost" url="pages/tutors/index">I'm a Tutor</navigator>
 </view>
