@@ -2,9 +2,9 @@
   "pages":[
     "pages/index/login",
     "pages/index/index",
-    "pages/students/index",
-    "pages/students/showtutor",
-    "pages/students/bookings",
+    "pages/students/student_index/index",
+    "pages/students/student_show/showtutor",
+    "pages/students/student_booking/bookings",
     "pages/tutors/index",
     "pages/tutors/bookings",
     "pages/tutors/update",
@@ -17,23 +17,24 @@
     "navigationBarTextStyle":"white"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
-
+  "sitemapLocation": "sitemap.json",
   "tabBar": {
-    "backgroundColor": "#FFFFFE",
-    "borderStyle": "#D3D3D3",
-    "selectedColor": "#D03232",
-    "color": "#131313",
     "list": [{
-      "pagePath": "pages/index/index",
-      "iconPath": "image/form.png",
-      "selectedIconPath": "image/form-hover.png",
-      "text": "Form"
-     }, {
-      "pagePath": "pages/wagon/wagon",
-      "iconPath": "image/about.png",
-      "selectedIconPath": "image/about-hover.png",
-      "text": "About"
+      "pagePath": "pages/index/login",
+      "text": "Tutors",
+      "iconPath": "/assets/images/tabBar/tutor_before.png",
+      "selectedIconPath": "/assets/images/tabBar/tutor_after.png"
+    }, {
+      "pagePath": "pages/students/student_index/index",
+      "text": "Bookings",
+      "iconPath": "/assets/images/tabBar/booking_before.png",
+      "selectedIconPath": "/assets/images/tabBar/booking_after.png"
+    },{
+      "pagePath": "pages/students/student_index/index",
+      "text": "Profile",
+      "iconPath": "/assets/images/tabBar/profile_before.png",
+      "selectedIconPath": "/assets/images/tabBar/profile_after.png"
     }]
   }
+
 }

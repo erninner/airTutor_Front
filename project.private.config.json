@@ -31,8 +31,8 @@
           "scene": null
         },
         {
-          "name": "pages/students/index",
-          "pathName": "pages/students/index",
+          "name": "studen_index_page",
+          "pathName": "pages/students/student_index/index",
           "query": "",
           "scene": null
         },
@@ -43,8 +43,8 @@
           "scene": null
         },
         {
-          "name": "pages/students/showtutor",
-          "pathName": "pages/students/showtutor",
+          "name": "pages/students/student_show/showtutor",
+          "pathName": "pages/students/student_show/showtutor",
           "query": "",
           "scene": null
         },
