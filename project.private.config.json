@@ -13,44 +13,26 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/tutors/index",
+          "name": "Tutor Information Update",
           "pathName": "pages/tutors/index",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/tutors/bookings",
-          "pathName": "pages/tutors/bookings",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/tutors/update",
+          "name": "Update Booking",
           "pathName": "pages/tutors/update",
           "query": "",
           "scene": null
         },
         {
-          "name": "index_page",
+          "name": "all_tutors",
           "pathName": "pages/students/student_index/index",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/index/login",
+          "name": "Login_page",
           "pathName": "pages/index/login",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/students/student_show/showtutor",
-          "pathName": "pages/students/student_show/showtutor",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/students/bookings",
-          "pathName": "pages/students/bookings",
           "query": "",
           "scene": null
         },
