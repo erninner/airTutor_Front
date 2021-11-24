@@ -47,6 +47,12 @@
           "pathName": "pages/students/showtutor",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/students/bookings",
+          "pathName": "pages/students/bookings",
+          "query": "",
+          "scene": null
         }
       ]
     }
