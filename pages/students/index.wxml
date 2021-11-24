@@ -15,11 +15,11 @@
   </form> -->
 
 <!-- tutor cards show -->
-<view wx:for="{{tutors}}" wx:for-item="tutor">
+<view wx:for="{{tutors}}" wx:for-item="tutor" bindtap="showstory" data-id="{{tutor.user.id}}">
   <view class="card-product">
     <image src='{{tutor.url}}'></image>
     <view class="card-product-infos">
-      <view class="h2">{{tutor.name}}</view>
+      <view class="h2">{{tutor.user.name}}</view>
       <view class="p">{{tutor.credential}}</view>
     </view>
     <button type="primary" size="mini">Book</button>
