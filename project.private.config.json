@@ -31,7 +31,7 @@
           "scene": null
         },
         {
-          "name": "studen_index_page",
+          "name": "index_page",
           "pathName": "pages/students/student_index/index",
           "query": "",
           "scene": null
@@ -51,6 +51,12 @@
         {
           "name": "pages/students/bookings",
           "pathName": "pages/students/bookings",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "profile_page",
+          "pathName": "pages/profile/profile",
           "query": "",
           "scene": null
         }

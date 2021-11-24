@@ -1,40 +1,44 @@
 {
-  "pages":[
+  "pages": [
+    "pages/students/student_index/index",
     "pages/index/login",
     "pages/index/index",
-    "pages/students/student_index/index",
     "pages/students/student_show/showtutor",
     "pages/students/student_booking/bookings",
     "pages/tutors/index",
     "pages/tutors/bookings",
     "pages/tutors/update",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/profile/profile"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "AirTutor",
-    "navigationBarTextStyle":"white"
+    "navigationBarTextStyle": "white"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/index/login",
-      "text": "Tutors",
-      "iconPath": "/assets/images/tabBar/tutor_before.png",
-      "selectedIconPath": "/assets/images/tabBar/tutor_after.png"
-    }, {
-      "pagePath": "pages/students/student_index/index",
-      "text": "Bookings",
-      "iconPath": "/assets/images/tabBar/booking_before.png",
-      "selectedIconPath": "/assets/images/tabBar/booking_after.png"
-    },{
-      "pagePath": "pages/students/student_index/index",
-      "text": "Profile",
-      "iconPath": "/assets/images/tabBar/profile_before.png",
-      "selectedIconPath": "/assets/images/tabBar/profile_after.png"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/students/student_index/index",
+        "text": "Tutors",
+        "iconPath": "/assets/images/tabBar/tutor_before.png",
+        "selectedIconPath": "/assets/images/tabBar/tutor_after.png"
+      },
+      {
+        "pagePath": "pages/students/student_booking/bookings",
+        "text": "Bookings",
+        "iconPath": "/assets/images/tabBar/booking_before.png",
+        "selectedIconPath": "/assets/images/tabBar/booking_after.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "Profile",
+        "iconPath": "/assets/images/tabBar/profile_before.png",
+        "selectedIconPath": "/assets/images/tabBar/profile_after.png"
+      }
+    ]
   }
-
 }

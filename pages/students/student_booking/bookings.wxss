@@ -1,44 +1,35 @@
 /* pages/students/bookings.wxss */
-
-.notification {
+/* pages/tutors/bookings.wxss */
+.card-product {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
-  margin-bottom: 8px;
-  background: white;
-  padding: 8px 16px;
-  border: 1px solid rgb(235,235,235);
 }
-
-.notification .notification-content {
-  flex-grow: 1;
-  padding: 0 24px;
+.card-product image {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
 }
-
-.notification p {
-  margin: 0;
-  line-height: 1.4;
-}
-
-.notification small {
-  color: #999999;
+.card-product .h2 {
+  font-size: 16px;
   font-weight: bold;
+  margin: 0;
 }
-.notification .notification-actions {
-  opacity: 0;
-  display: flex;
-  transition: ease .3s;
+.card-product text {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
 }
-
-.notification:hover .notification-actions {
-  opacity: 1;
+.card-product .card-product-infos {
+  padding: 16px;
 }
-
-.notification .notification-actions a {
-  color: #999999;
-  margin-left: 16px;
-  font-size: 14px;
-}
-
-.notification .notification-actions a:hover {
-  color: #555555;
+.mini-btn{
+  display: flex-end;
+  margin-right: 10rpx;
+  margin-top: 20px;
 }

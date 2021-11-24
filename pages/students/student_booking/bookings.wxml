@@ -1,28 +1,30 @@
-<!--pages/students/bookings.wxml-->
-<text>pages/students/bookings.wxml</text>
-
-<view class="notification">
-  <image src='https://kitt.lewagon.com/placeholder/users/arthur-littm' class="avatar-large" />
-  <view class="notification-content">
-    <text><small>14th January</small></text>
-    <text>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit.</text>
-  </view>
-
-  <view class="notification-actions">
-    <navigate href="#">Accept <i class="fas fa-pencil-alt"></i></navigate>
-    <navigate href="#">Reject <i class="far fa-trash-alt"></i></navigate>
+<view class="card-product">
+  <image src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+  <view class="card-product-infos">
+    <view class="h2">Booking 1</view>
+    <text>Booking details </text>
+    <view class="flex-container">
+      <button class="mini-btn" type="primary" size="mini">Details</button>
+    </view>
   </view>
 </view>
-
-<view class="notification">
-  <image src='https://kitt.lewagon.com/placeholder/users/Eschults' class="avatar-large"/>
-  <view class="notification-content">
-    <text><small>9th January</small></text>
-    <text>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit.</text>
+<view class="card-product">
+  <image src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+  <view class="card-product-infos">
+    <view class="h2">Booking 2</view>
+    <text>Booking details </text>
+    <view class="flex-container">
+      <button class="mini-btn" type="primary" size="mini">Details</button>
+    </view>
   </view>
-
-  <view class="notification-actions">
-    <navigate href="#">Accept <i class="fas fa-pencil-alt"></i></navigate>
-    <navigate href="#">Reject <i class="far fa-trash-alt"></i></navigate>
+</view>
+<view class="card-product">
+  <image src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+  <view class="card-product-infos">
+    <view class="h2">Booking 3</view>
+    <text>Booking details </text>
+    <view class="flex-container">
+      <button class="mini-btn" type="primary" size="mini">Details</button>
+    </view>
   </view>
 </view>
