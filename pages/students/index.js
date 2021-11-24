@@ -5,7 +5,14 @@ Page({
    * Page initial data
    */
   data: {
-
+    tutors:
+    [
+    	{ name: "Aggy", credential: "Backend Pro", url:"https://kitt.lewagon.com/placeholder/users/krokrob"},
+    	{ name: "Xun", credential: "Full-stack", url:"https://kitt.lewagon.com/placeholder/users/Eschults" },
+    	{ name: "Pavel", credential: "Data Pro", url:"https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg"},
+    	{ name: "Alex", credential: "Bossy boss", url:"https://kitt.lewagon.com/placeholder/users/arthur-littm" },
+    	{ name: "Michael", credential: "Gin Pro", url:"https://unsplash.com/photos/WNoLnJo7tS8" },
+    ]
   },
 
   /**

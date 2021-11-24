@@ -12,10 +12,28 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "AirTutor",
+    "navigationBarTextStyle":"white"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
+
+  "tabBar": {
+    "backgroundColor": "#FFFFFE",
+    "borderStyle": "#D3D3D3",
+    "selectedColor": "#D03232",
+    "color": "#131313",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "image/form.png",
+      "selectedIconPath": "image/form-hover.png",
+      "text": "Form"
+     }, {
+      "pagePath": "pages/wagon/wagon",
+      "iconPath": "image/about.png",
+      "selectedIconPath": "image/about-hover.png",
+      "text": "About"
+    }]
+  }
 }

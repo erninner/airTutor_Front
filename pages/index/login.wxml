@@ -1,5 +1,5 @@
 <!--pages/index/login.wxml-->
-<text>pages/index/login.wxml</text>
+<text>Select the Type of Role:</text>
 
 <view>
 <navigator class="btn btn-ghost" url="/pages/students/index">I'm a Student</navigator>
