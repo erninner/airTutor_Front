@@ -1,10 +1,6 @@
-<!--pages/students/showtutor.wxml-->
-<text>pages/students/showtutor.wxml</text>
-<text> {{name}}</text>
-<text> {{credentials}}</text>
-
+<!--pages/profile/profile.wxml-->
 <view style="padding: 50rpx">
-  <view class="h1">Your Course Offering</view>
+  <view class="h1">Personal Information</view>
 
   <form catchsubmit="formSubmit" >
     <view class="name">Name</view>
@@ -17,8 +13,9 @@
         <input class="input" name="name" placeholder="your alma mater" value="{{name}}" />
 
       <view class="name" style="padding-top: 40rpx">Teaching Credentials</view>
-      <textarea class="input" name="text" placeholder="{{credentials}}" value="{{text}}" />
+      <textarea class="input" name="text" placeholder="your teaching certificates, awards, credentials, teaching hours, etc." value="{{text}}" />
 
     <button style="margin: 30rpx 0" type="primary" formType="submit">Submit</button>
   </form>
 </view>
+
