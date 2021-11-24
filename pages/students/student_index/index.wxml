@@ -15,7 +15,7 @@
   </form> -->
 
 <!-- tutor cards show -->
-<view wx:for="{{tutors}}" wx:for-item="tutor">
+<!-- <view wx:for="{{tutors}}" wx:for-item="tutor">
   <view class="card-product">
     <image src='{{tutor.url}}'></image>
     <view class="card-product-infos">
@@ -24,9 +24,14 @@
     </view>
     <button type="primary" size="mini">Book</button>
   </view>
-</view>
-
-
+</view> -->
+<horizontal_card/>
+<horizontal_card/>
+<horizontal_card/>
+<horizontal_card/>
+<horizontal_card/>
+<horizontal_card/>
+<horizontal_card/>
 
 
 
