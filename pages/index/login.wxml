@@ -1,7 +1,10 @@
 <!--pages/index/login.wxml-->
-<text>Select the Type of Role:</text>
 
-<view>
-<navigator class="btn btn-ghost" url="/pages/students/index">I'm a Student</navigator>
-<navigator class="btn btn-ghost" url="/pages/tutors/index">I'm a Tutor</navigator>
+<view class="container">
+  <view class="center">
+    <h3>Select Your Role:</h3>
+
+    <navigator class="btn btn-flat" url="/pages/students/index">I'm a Student</navigator>
+    <navigator class="btn btn-flat" url="/pages/tutors/index">I'm a Tutor</navigator>
+  </view>
 </view>
