@@ -1,4 +1,5 @@
 // pages/students/index.js
+const app = getApp()
 Page({
 
   /**
@@ -19,8 +20,27 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
+    let page = this;
+
+      // Get api data
+      wx.request({
+        url: "https://airtutor777.herokuapp.com/api/v1/teachers",
+        method: 'GET',
+        success(res) {
+          const tutors = res.data.teachers;
+  
+          // Update local data
+          page.setData({
+            tutors: tutors
+          });
+  
+          wx.hideToast();
+        }
+      });
 
   },
+
+
 
   /**
    * Lifecycle function--Called when page is initially rendered
@@ -69,5 +89,13 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  showstory(e){
+
+    let id = e.currentTarget.dataset.id;
+    wx.navigateTo({
+      url: `/pages/students/showtutor?id=${id}`,
+    })
   }
 })

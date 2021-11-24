@@ -19,7 +19,7 @@
   <view class="card-product">
     <image src='{{tutor.url}}'></image>
     <view class="card-product-infos">
-      <view class="h2">{{tutor.name}}</view>
+      <view class="h2">{{tutor.user.name}}</view>
       <view class="p">{{tutor.credential}}</view>
     </view>
     <button type="primary" size="mini">Book</button>

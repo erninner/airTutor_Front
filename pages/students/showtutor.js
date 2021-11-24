@@ -12,6 +12,20 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
+    const page = this
+    wx.request({
+      url: `https://airtutor777.herokuapp.com/api/v1/teachers/${options.id}`,
+      success(res){
+        console.log(res.data);
+        page.setData({
+          name: res.data.user.name ,
+          credentials: res.data.credential
+        })
+        
+      }
+    })
+
+
 
   },
 
