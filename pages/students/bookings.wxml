@@ -1,5 +1,5 @@
-<!--pages/tutors/bookings.wxml-->
-<text>pages/tutors/bookings.wxml</text>
+<!--pages/students/bookings.wxml-->
+<text>pages/students/bookings.wxml</text>
 
 <view class="notification">
   <image src='https://kitt.lewagon.com/placeholder/users/arthur-littm' class="avatar-large" />

@@ -2,6 +2,9 @@
   "pages":[
     "pages/index/login",
     "pages/index/index",
+    "pages/students/index",
+    "pages/students/showtutor",
+    "pages/students/bookings",
     "pages/tutors/index",
     "pages/tutors/bookings",
     "pages/tutors/update",
@@ -9,10 +12,12 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "AirTutor",
+    "navigationBarTextStyle":"white"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
+
+  
 }

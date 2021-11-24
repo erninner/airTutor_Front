@@ -1,4 +1,5 @@
-/* pages/tutors/update.wxss */
+/* pages/students/showtutor.wxss */
+
 .title{
   font-size: larger;
   padding-bottom: 10rpx;
