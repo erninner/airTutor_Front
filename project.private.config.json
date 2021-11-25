@@ -13,32 +13,26 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/tutors/index",
-          "pathName": "pages/tutors/index",
+          "name": "pages/students/show_all_tutor/index",
+          "pathName": "pages/students/show_all_tutor/index",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/tutors/bookings",
-          "pathName": "pages/tutors/bookings",
+          "name": "pages/students/student_booking/bookings",
+          "pathName": "pages/students/student_booking/bookings",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/tutors/update",
-          "pathName": "pages/tutors/update",
+          "name": "pages/students/student_booking/bookings",
+          "pathName": "pages/students/student_booking/bookings",
           "query": "",
           "scene": null
         },
         {
-          "name": "index_page",
-          "pathName": "pages/students/student_index/index",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/index/login",
-          "pathName": "pages/index/login",
+          "name": "pages/students/student_profile/profile",
+          "pathName": "pages/students/student_profile/profile",
           "query": "",
           "scene": null
         },
@@ -49,14 +43,14 @@
           "scene": null
         },
         {
-          "name": "pages/students/bookings",
-          "pathName": "pages/students/bookings",
+          "name": "pages/tutors/tutor_home/tutor_home",
+          "pathName": "pages/tutors/tutor_home/tutor_home",
           "query": "",
           "scene": null
         },
         {
-          "name": "profile_page",
-          "pathName": "pages/profile/profile",
+          "name": "pages/tutors/tutor_profile/profile",
+          "pathName": "pages/tutors/tutor_profile/profile",
           "query": "",
           "scene": null
         }

@@ -1,4 +1,4 @@
-// pages/logs/logs.js
+// pages/tutors/tutor_home/tutor_home.js
 Page({
 
   /**

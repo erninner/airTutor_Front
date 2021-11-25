@@ -1,0 +1,32 @@
+<!--pages/tutors/tutor_home/tutor_home.wxml-->
+
+<view class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+  Home Page of tutor
+</view>
+<horizontal_card_tutor/>
+
+<view class="tab">
+  <view class="select-1">
+  Accepted
+  </view>
+  <view class="select-2">
+  Pending
+  </view>
+</view>
+
+
+<horizontal_card_booking/>
+<horizontal_card_booking/>
+<horizontal_card_booking/>
+<horizontal_card_booking/>
+<horizontal_card_booking/>
+
+<view class="tab">
+  <view class="select-1-bottom">
+  Home
+  </view>
+  <view class="select-2-bottom">
+   My Profile
+  </view>
+</view>
+

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "horizontal_card": "/components/horizontal_card_tutor/horizontal_card"
+  },
+  "navigationBarTitleText": "Tutor List"
+} 

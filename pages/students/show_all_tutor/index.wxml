@@ -1,0 +1,20 @@
+<!-- <text>pages/students/index.wxml</text> -->
+<!-- <view class="card-category" style="background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.3)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOT1M58oWpAZAndD-HijM8Gvtgd4mw3aLYdw&usqp=CAU)">
+  Find the Right Tutor
+</view> -->
+
+<swiper autoplay="true" interval="1000" circular="true" indicator-dots="true">
+  <swiper-item><image mode="widthFix" src="/assets/images/subjects/maths.png"></image></swiper-item>
+  <swiper-item><image mode="widthFix" src="/assets/images/subjects/physics.png"></image></swiper-item>
+  <swiper-item><image mode="widthFix" src="/assets/images/subjects/economics.png"></image></swiper-item>
+</swiper>
+
+
+<!-- List of tutors -->
+<horizontal_card/>
+<horizontal_card/>
+<horizontal_card/>
+<horizontal_card/>
+<horizontal_card/>
+<horizontal_card/>
+<horizontal_card/>
