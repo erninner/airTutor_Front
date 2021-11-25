@@ -57,3 +57,33 @@ image {
   justify-content: space-evenly;
 }
 
+.tab {
+  display: flex;
+  font-size: large;
+  align-items: center;
+  justify-content: flex-end;
+  height:250px;
+}
+.select-1-bottom {
+  background-color: rgb(153, 153, 153);
+  width: 50%;
+  text-align: center;
+  height:50px;
+}
+
+.select-2-bottom {
+  background-color:  greenyellow;
+  width: 50%;
+  text-align: center;
+  height:50px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 200px;
+}
+
+
+

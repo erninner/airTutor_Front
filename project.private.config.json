@@ -59,6 +59,18 @@
           "pathName": "pages/bookings/booking_new_request/booking_new_request",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "landing_page",
+          "pathName": "pages/landing_page/landing_page",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/bookings/booking_modify/booking_modify",
+          "pathName": "pages/bookings/booking_modify/booking_modify",
+          "query": "",
+          "scene": null
         }
       ]
     }

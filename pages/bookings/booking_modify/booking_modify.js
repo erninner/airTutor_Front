@@ -1,14 +1,15 @@
-// pages/bookings/booking_show/booking_show.js
+// pages/bookings/booking_modify/booking_modify.js
 Page({
 
-  modify: function(){
-    wx.navigateTo({
-      url: '/pages/bookings/booking_modify/booking_modify',
-    })
-  },
   /**
    * Page initial data
    */
+
+  return_to_booking: function() {
+    wx.switchTab({
+      url: '/pages/students/student_booking/bookings',
+    })
+  },
   data: {
 
   },

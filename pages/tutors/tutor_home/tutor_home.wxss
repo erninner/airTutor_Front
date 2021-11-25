@@ -13,23 +13,25 @@
   border-radius: 10px;
 }
 
-.select-1-bottom {
-  background-color: gray;
-  width: 50%;
-  text-align: center;
-  height:50px;
-}
+
 
 .select-2 {
-  background-color: rgb(255, 28, 28);
+  background-color: rgb(153, 153, 153);
   width: 50%;
   text-align: center;
   height:50px;
     border-radius: 10px;
 }
 
+.select-1-bottom {
+  background-color:  greenyellow;
+  width: 50%;
+  text-align: center;
+  height:50px;
+}
+
 .select-2-bottom {
-  background-color: rgb(255, 28, 28);
+  background-color:  rgb(153, 153, 153);
   width: 50%;
   text-align: center;
   height:50px;

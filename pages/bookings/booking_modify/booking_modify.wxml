@@ -1,0 +1,16 @@
+<view style="padding: 70rpx">
+  <view class="h1">Request Form for Change</view>
+  <form catchsubmit="formSubmit" >
+    <view class="name">Student's name</view>
+    <input class="input" name="name" placeholder="your name" value="{{name}}" />
+
+      
+    <view class="name">Proposed New Time</view>
+    <input class="input" name="time" placeholder="Type in Time" value="{{time}}" />
+   
+    <view class="name" style="padding-top: 40rpx">Reason for Change</view>
+    <textarea class="input" name="text" placeholder="your course offering and description" value="{{text}}" />
+
+    <button style="margin: 30rpx 0" bindtap="return_to_booking" type="primary" formType="submit">Submit Request</button>
+  </form>
+</view>

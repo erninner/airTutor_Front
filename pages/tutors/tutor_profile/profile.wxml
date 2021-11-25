@@ -15,6 +15,18 @@
 <view class="info"> Course Info: </view>
 <view > This course is offered to high school students</view>
 
-<view class="teaching-style">Teacher's Credentials:</view>
-<view>Terence likes to teach Physics in his spare ime</view>
+
+
+  <view class="teaching-style">Teacher's Credentials:</view>
+  <view>Terence likes to teach Physics in his spare ime</view>
+  <!-- bottom tab -->
+  <view class="tab">
+    <view bindtap="tap_home" class="select-1-bottom">
+    Home
+    </view>
+    <view class="select-2-bottom">
+    My Profile
+    </view>
+  </view>
+
 

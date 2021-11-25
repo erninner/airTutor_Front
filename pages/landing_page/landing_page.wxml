@@ -1,0 +1,8 @@
+<!--pages/landing_page/landing_page.wxml-->
+<view class="banner">
+  <view class="headline" style="color: rgb(253, 253, 253);">User Login</view>
+</view>
+<view class="box">
+  <button type="default" bindtap="student">I'm a Student</button>
+  <button type="default" bindtap="tutor">I'm a Tutor</button>
+</view>

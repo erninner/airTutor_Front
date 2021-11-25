@@ -16,4 +16,4 @@
   <view class="student">Course Title:</view>
 </view>
 
-<button type="primary"> Modify Booking</button>
+<button type="primary" bindtap="modify"> Modify Booking</button>
