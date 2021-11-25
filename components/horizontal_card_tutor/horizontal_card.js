@@ -20,14 +20,13 @@ Component({
     	{ name: "Michael", credential: "Gin Pro", url:"https://unsplash.com/photos/WNoLnJo7tS8" },
     ]
   },
-
   /**
    * Component methods
    */
   methods: {
-    tap: function(env){
+    tap: function(){
       wx.navigateTo({
-        url: '/pages/tutors/bookings'
+        url: '/pages/bookings/booking_new_request/booking_new_request'
       })
     }
   }

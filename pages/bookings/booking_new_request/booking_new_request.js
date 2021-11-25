@@ -8,6 +8,11 @@ Page({
 
   },
 
+  return_to_booking: function() {
+    wx.switchTab({
+      url: '/pages/students/student_booking/bookings',
+    })
+  },
   /**
    * Lifecycle function--Called when page load
    */

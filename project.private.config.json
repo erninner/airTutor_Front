@@ -47,6 +47,18 @@
           "pathName": "pages/tutors/tutor_profile/profile",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/bookings/booking_show/booking_show",
+          "pathName": "pages/bookings/booking_show/booking_show",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "Booking_new_request",
+          "pathName": "pages/bookings/booking_new_request/booking_new_request",
+          "query": "",
+          "scene": null
         }
       ]
     }

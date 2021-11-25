@@ -1,2 +1,16 @@
-<!--pages/bookings/booking_new_request/booking_new_request.wxml-->
-<text>pages/bookings/booking_new_request/booking_new_request.wxml</text>
+<view style="padding: 70rpx">
+  <view class="h1">Booking Request Form</view>
+  <form catchsubmit="formSubmit" >
+    <view class="name">Student's name</view>
+    <input class="input" name="name" placeholder="your name" value="{{name}}" />
+
+      
+    <view class="name">Proposed Time</view>
+    <input class="input" name="time" placeholder="Type in Time" value="{{time}}" />
+   
+    <view class="name" style="padding-top: 40rpx">Special Request</view>
+    <textarea class="input" name="text" placeholder="your course offering and description" value="{{text}}" />
+
+    <button style="margin: 30rpx 0" bindtap="return_to_booking" type="primary" formType="submit">Submit Request</button>
+  </form>
+</view>

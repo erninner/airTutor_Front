@@ -8,11 +8,17 @@ Page({
 
   },
 
+  "tap": function (e) {
+    console.log(e);
+    wx.redirectTo({
+      url: '/pages/bookings/booking_show/booking_show'
+    });
+  },
+
   /**
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
-
   },
 
   /**
