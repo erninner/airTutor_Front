@@ -37,12 +37,6 @@
           "scene": null
         },
         {
-          "name": "pages/students/student_show/showtutor",
-          "pathName": "pages/students/student_show/showtutor",
-          "query": "",
-          "scene": null
-        },
-        {
           "name": "pages/tutors/tutor_home/tutor_home",
           "pathName": "pages/tutors/tutor_home/tutor_home",
           "query": "",

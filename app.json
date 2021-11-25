@@ -6,7 +6,9 @@
     "pages/tutors/tutor_home/tutor_home",
     "pages/tutors/tutor_profile/profile",
     "pages/students/student_booking/bookings",
-    "pages/students/student_profile/profile"
+    "pages/students/student_profile/profile",
+    "pages/bookings/booking_show/booking_show",
+    "pages/bookings/booking_new_request/booking_new_request"
   ],
   "window": {
     "backgroundTextStyle": "light",
