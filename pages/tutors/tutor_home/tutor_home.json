@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "horizontal_card_booking": "/components/horizontal_card_booking/horizontal_card",
+    "horizontal_card_tutor": "/components/horizontal_card_tutor/horizontal_card"
+  }
+}

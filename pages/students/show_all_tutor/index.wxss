@@ -1,0 +1,5 @@
+/* pages/students/index.wxss */
+image {
+  width: 100vw;
+}
+

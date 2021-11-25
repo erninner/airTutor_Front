@@ -1,15 +1,12 @@
 {
   "pages": [
-    "pages/students/student_index/index",
-    "pages/index/login",
-    "pages/index/index",
-    "pages/students/student_show/showtutor",
+  
+    "pages/students/show_all_tutor/index",
+    "pages/login_page/login",
+    "pages/tutors/tutor_home/tutor_home",
+    "pages/tutors/tutor_profile/profile",
     "pages/students/student_booking/bookings",
-    "pages/tutors/index",
-    "pages/tutors/bookings",
-    "pages/tutors/update",
-    "pages/logs/logs",
-    "pages/profile/profile"
+    "pages/students/student_profile/profile"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -22,7 +19,7 @@
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/students/student_index/index",
+        "pagePath": "pages/students/show_all_tutor/index",
         "text": "Tutors",
         "iconPath": "/assets/images/tabBar/tutor_before.png",
         "selectedIconPath": "/assets/images/tabBar/tutor_after.png"
@@ -34,7 +31,7 @@
         "selectedIconPath": "/assets/images/tabBar/booking_after.png"
       },
       {
-        "pagePath": "pages/profile/profile",
+        "pagePath": "pages/tutors/tutor_profile/profile",
         "text": "Profile",
         "iconPath": "/assets/images/tabBar/profile_before.png",
         "selectedIconPath": "/assets/images/tabBar/profile_after.png"

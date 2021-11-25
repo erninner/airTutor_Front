@@ -1,0 +1,16 @@
+<!--pages/profile/profile.wxml-->
+<view class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+  Student Profile
+</view>
+
+<view class="banner">
+  <image mode="widthFix" src="/assets/images/terence.png"></image>
+  <view class="content">
+    <view class="name"> Name: Terence</view>
+    <view class="grade"> Email: ter@lewagon</view>
+    <view class="school">Grade: 9th</view>
+  </view>
+</view>
+
+<view > Preferences </view>
+

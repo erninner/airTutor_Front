@@ -1,0 +1,20 @@
+<!--pages/profile/profile.wxml-->
+<view class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+  Tutor Profile
+</view>
+
+<view class="banner">
+  <image mode="widthFix" src="/assets/images/terence.png"></image>
+  <view class="content">
+    <view class="name"> Name: Terence</view>
+    <view class="grade"> Email: ter@lewagon</view>
+    <view class="school">Subject: Maths</view>
+  </view>
+</view>
+
+<view class="info"> Course Info: </view>
+<view > This course is offered to high school students</view>
+
+<view class="teaching-style">Teacher's Credentials:</view>
+<view>Terence likes to teach Physics in his spare ime</view>
+

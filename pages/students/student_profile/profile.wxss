@@ -1,0 +1,59 @@
+/* pages/profile/profile.wxss */
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+image {
+  width: 250rpx;
+  margin:10px
+}
+
+.banner {
+  display: flex;
+  margin: auto;
+}
+
+.content {
+  margin:10px;
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.teaching-style {
+  margin-top: 10px;
+  height: 20px;
+}
+
+.subject {
+  margin-top: 10px;
+  background-color: rgb(223, 221, 221);
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.subject .course {
+  background-color: green;
+  /* text-align: center;
+  align-items: center; */
+  border-radius: 20px;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+

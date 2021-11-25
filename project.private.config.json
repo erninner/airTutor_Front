@@ -13,32 +13,44 @@
     "miniprogram": {
       "list": [
         {
-          "name": "Tutor Information Update",
-          "pathName": "pages/tutors/index",
+          "name": "pages/students/show_all_tutor/index",
+          "pathName": "pages/students/show_all_tutor/index",
           "query": "",
           "scene": null
         },
         {
-          "name": "Update Booking",
-          "pathName": "pages/tutors/update",
+          "name": "pages/students/student_booking/bookings",
+          "pathName": "pages/students/student_booking/bookings",
           "query": "",
           "scene": null
         },
         {
-          "name": "all_tutors",
-          "pathName": "pages/students/student_index/index",
+          "name": "pages/students/student_booking/bookings",
+          "pathName": "pages/students/student_booking/bookings",
           "query": "",
           "scene": null
         },
         {
-          "name": "Login_page",
-          "pathName": "pages/index/login",
+          "name": "pages/students/student_profile/profile",
+          "pathName": "pages/students/student_profile/profile",
           "query": "",
           "scene": null
         },
         {
-          "name": "profile_page",
-          "pathName": "pages/profile/profile",
+          "name": "pages/students/student_show/showtutor",
+          "pathName": "pages/students/student_show/showtutor",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/tutors/tutor_home/tutor_home",
+          "pathName": "pages/tutors/tutor_home/tutor_home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/tutors/tutor_profile/profile",
+          "pathName": "pages/tutors/tutor_profile/profile",
           "query": "",
           "scene": null
         }

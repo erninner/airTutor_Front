@@ -1,0 +1,8 @@
+<!--assets/horizontal_card/horizontal_card.wxml-->
+<view class="card-product-infos">
+<view class="left">
+  <view class="h2">Booking number</view>
+  <view class="p">Student Name</view>
+</view>
+  <view class="time">Time: 11:30am</view>
+</view>

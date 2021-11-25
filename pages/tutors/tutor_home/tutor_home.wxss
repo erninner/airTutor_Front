@@ -1,0 +1,51 @@
+/* pages/tutors/tutor_home/tutor_home.wxss */
+.tab {
+  display: flex;
+  font-size: large;
+  align-items: center;
+}
+
+.select-1 {
+  background-color: greenyellow;
+  width: 50%;
+  text-align: center;
+  height:50px;
+  border-radius: 10px;
+}
+
+.select-1-bottom {
+  background-color: gray;
+  width: 50%;
+  text-align: center;
+  height:50px;
+}
+
+.select-2 {
+  background-color: rgb(255, 28, 28);
+  width: 50%;
+  text-align: center;
+  height:50px;
+    border-radius: 10px;
+}
+
+.select-2-bottom {
+  background-color: rgb(255, 28, 28);
+  width: 50%;
+  text-align: center;
+  height:50px;
+}
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
