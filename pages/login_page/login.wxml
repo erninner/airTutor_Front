@@ -2,6 +2,6 @@
 <text>Select the Type of Role:</text>
 
 <view>
-<navigator class="btn btn-ghost" url="/pages/students/student_index/index">I'm a Student</navigator>
+<view class="btn btn-ghost" url="/pages/students/student_index/index">I'm a Student</view>
 <navigator class="btn btn-ghost" url="/pages/tutors/index">I'm a Tutor</navigator>
 </view>

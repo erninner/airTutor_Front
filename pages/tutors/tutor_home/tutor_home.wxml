@@ -25,7 +25,7 @@
   <view class="select-1-bottom">
   Home
   </view>
-  <view class="select-2-bottom">
+  <view bindtap="tap_profile" class="select-2-bottom">
    My Profile
   </view>
 </view>

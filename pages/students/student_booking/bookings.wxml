@@ -4,7 +4,7 @@
     <view class="h2">Booking 1</view>
     <text>Booking details </text>
     <view class="flex-container">
-      <button class="mini-btn" type="primary" size="mini">Details</button>
+      <button class="mini-btn" bindtap="tap" type="primary" size="mini">Details</button>
     </view>
   </view>
 </view>
@@ -14,7 +14,7 @@
     <view class="h2">Booking 2</view>
     <text>Booking details </text>
     <view class="flex-container">
-      <button class="mini-btn" type="primary" size="mini">Details</button>
+      <button class="mini-btn" bindtap="tap" type="primary" size="mini">Details</button>
     </view>
   </view>
 </view>
@@ -24,7 +24,7 @@
     <view class="h2">Booking 3</view>
     <text>Booking details </text>
     <view class="flex-container">
-      <button class="mini-btn" type="primary" size="mini">Details</button>
+      <button class="mini-btn" bindtap="tap" type="primary" size="mini">Details</button>
     </view>
   </view>
 </view>

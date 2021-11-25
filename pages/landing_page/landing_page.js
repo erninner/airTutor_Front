@@ -1,17 +1,26 @@
-// pages/bookings/booking_show/booking_show.js
+// pages/landing_page/landing_page.js
 Page({
 
-  modify: function(){
-    wx.navigateTo({
-      url: '/pages/bookings/booking_modify/booking_modify',
-    })
-  },
   /**
    * Page initial data
    */
   data: {
 
   },
+
+  student: function() {
+    wx.switchTab({
+      url: '/pages/students/show_all_tutor/index',
+    })
+  },
+
+  tutor: function() {
+    wx.navigateTo({
+      url: '/pages/tutors/tutor_home/tutor_home',
+    })
+  },
+
+
 
   /**
    * Lifecycle function--Called when page load
