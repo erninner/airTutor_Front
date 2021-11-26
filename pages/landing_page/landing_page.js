@@ -9,14 +9,16 @@ Page({
   },
 
   student: function() {
+   
     wx.switchTab({
-      url: '/pages/students/show_all_tutor/index',
+      url: `/pages/students/show_all_tutor/index`,
     })
   },
 
   tutor: function() {
+    let id = 7;
     wx.navigateTo({
-      url: '/pages/tutors/tutor_home/tutor_home',
+      url: `/pages/tutors/tutor_home/tutor_home?id=${id}`,
     })
   },
 
