@@ -10,7 +10,8 @@
     "pages/bookings/booking_show/booking_show",
     "pages/bookings/booking_new_request/booking_new_request",
     "pages/bookings/booking_modify/booking_modify",
-    "pages/students/tutor_profile/tutor_profile"
+    "pages/students/tutor_profile/tutor_profile",
+    "pages/tutors/tutor_booking/tutor_booking"
   ],
   "window": {
     "backgroundTextStyle": "light",
