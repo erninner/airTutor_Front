@@ -10,7 +10,6 @@
   font-size: 24px;
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
@@ -32,10 +31,6 @@ image {
   justify-content: space-between;
 }
 
-.teaching-style {
-  margin-top: 10px;
-  height: 20px;
-}
 
 .subject {
   margin-top: 10px;
@@ -84,6 +79,41 @@ image {
   justify-content: flex-end;
   height: 200px;
 }
+
+.name {
+  background-color: rgb(148, 148, 230);
+  text-align: center;
+  width: 80px;
+  border-radius: 20px;
+}
+
+
+
+.grade {
+  background-color: rgb(148, 148, 230);
+  text-align: center;
+  width: 80px;
+  border-radius: 20px;
+} 
+
+.school {
+  background-color: rgb(148, 148, 230);
+  text-align: center;
+  width: 80px;
+  border-radius: 20px;
+} 
+
+.first {
+  margin:5px
+}
+
+.second {
+  margin:5px
+}
+.third {
+  margin:5px
+}
+
 
 
 

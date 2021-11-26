@@ -30,14 +30,9 @@ Page({
           course_info: res.data.course_info,
           credentials: res.data.teaching_credentials,
           id: options.id
-
-
-        
-        })
-        
+        }) 
       }
     })
-
   },
 
   /**
