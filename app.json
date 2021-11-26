@@ -1,6 +1,6 @@
 {
   "pages": [
-  
+    "pages/landing_page/landing_page",
     "pages/students/show_all_tutor/index",
     "pages/login_page/login",
     "pages/tutors/tutor_home/tutor_home",
@@ -8,7 +8,9 @@
     "pages/students/student_booking/bookings",
     "pages/students/student_profile/profile",
     "pages/bookings/booking_show/booking_show",
-    "pages/bookings/booking_new_request/booking_new_request"
+    "pages/bookings/booking_new_request/booking_new_request",
+    "pages/bookings/booking_modify/booking_modify",
+    "pages/students/tutor_profile/tutor_profile"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -33,7 +35,7 @@
         "selectedIconPath": "/assets/images/tabBar/booking_after.png"
       },
       {
-        "pagePath": "pages/tutors/tutor_profile/profile",
+        "pagePath": "pages/students/student_profile/profile",
         "text": "Profile",
         "iconPath": "/assets/images/tabBar/profile_before.png",
         "selectedIconPath": "/assets/images/tabBar/profile_after.png"

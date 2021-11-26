@@ -8,6 +8,12 @@ Page({
 
   },
 
+  tap_profile: function(){
+    wx.navigateTo({
+      url: '/pages/tutors/tutor_profile/profile',
+    })
+  },
+
   /**
    * Lifecycle function--Called when page load
    */

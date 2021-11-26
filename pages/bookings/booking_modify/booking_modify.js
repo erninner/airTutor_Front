@@ -1,34 +1,23 @@
-// pages/bookings/booking_new_request/booking_new_request.js
+// pages/bookings/booking_modify/booking_modify.js
 Page({
 
   /**
    * Page initial data
    */
-  data: {
-
-  },
 
   return_to_booking: function() {
     wx.switchTab({
       url: '/pages/students/student_booking/bookings',
     })
   },
+  data: {
+
+  },
+
   /**
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
-    // console.log(options.id)
-    const page = this
-    wx.request({
-      url: `https://airtutor777.herokuapp.com/api/v1/teachers/${options.id}`,
-      success(res){
-        page.setData({
-          name: res.data.user.name,
-          course_title: res.data.course_title,
-          id: options.id
-        })
-      }
-    })
 
   },
 
@@ -79,18 +68,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  submitForm(e){
-    let time = e.detail.value.time;
-    let comment = e.detail.value.text;
-    console.log(time);
-    console.log(comment);
-
-
-    wx.switchTab({
-      url: '/pages/students/student_booking/bookings',
-    })
   }
-
 })

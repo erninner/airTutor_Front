@@ -47,6 +47,42 @@
           "pathName": "pages/tutors/tutor_profile/profile",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/bookings/booking_show/booking_show",
+          "pathName": "pages/bookings/booking_show/booking_show",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "Booking_new_request",
+          "pathName": "pages/bookings/booking_new_request/booking_new_request",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "landing_page",
+          "pathName": "pages/landing_page/landing_page",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/bookings/booking_modify/booking_modify",
+          "pathName": "pages/bookings/booking_modify/booking_modify",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/bookings/booking_show/booking_show",
+          "pathName": "pages/bookings/booking_show/booking_show",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/bookings/booking_new_request/booking_new_request",
+          "pathName": "pages/bookings/booking_new_request/booking_new_request",
+          "query": "id=7",
+          "scene": null
         }
       ]
     }

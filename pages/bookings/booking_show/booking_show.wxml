@@ -1,2 +1,19 @@
 <!--pages/bookings/booking_show/booking_show.wxml-->
-<text>pages/bookings/booking_show/booking_show.wxml</text>
+<view class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/assets/images/subjects/economics.png)">
+  Booking Detail
+</view>
+
+<view class="match">
+  <image mode="widthFix" src="/assets/images/terence.png"></image>
+  <image mode="widthFix" src="/assets/images/terence.png"></image>
+</view>
+
+
+<view class="content">
+  <view class="teacher">Teacher: </view>
+  <view class="student">Student name:</view>
+  <view class="student">Time:</view>
+  <view class="student">Course Title:</view>
+</view>
+
+<button type="primary" bindtap="modify"> Modify Booking</button>

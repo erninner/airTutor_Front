@@ -6,27 +6,29 @@
 <view class="banner">
   <image mode="widthFix" src="/assets/images/terence.png"></image>
   <view class="content">
-    <view class="name"> Name: Terence</view>
-    <view class="grade"> Email: ter@lewagon</view>
-    <view class="school">Subject: Maths</view>
+    <view class="name"> Name: {{name}}</view>
+    <view class="grade"> Email: {{email}}</view>
+    <view class="school">Course: {{course_title}}</view>
   </view>
 </view>
 
 <view class="info"> Course Info: </view>
-<view > This course is offered to high school students</view>
+<view >{{course_info}}</view>
 
 
 
   <view class="teaching-style">Teacher's Credentials:</view>
-  <view>Terence likes to teach Physics in his spare ime</view>
+  <view>{{credentials}}</view>
+
+  <button type="primary" size="mini" bindtap="tap" data-id="{{tutor.id}}" wx:key="key" wx:for-item="tutor">Book</button>
   <!-- bottom tab -->
-  <view class="tab">
+  <!-- <view class="tab">
     <view bindtap="tap_home" class="select-1-bottom">
     Home
     </view>
     <view class="select-2-bottom">
     My Profile
     </view>
-  </view>
+  </view> -->
 
 
