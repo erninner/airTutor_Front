@@ -16,21 +16,33 @@ Page({
   /**
    * Lifecycle function--Called when page load
    */
-  onLoad: function (options) {
-    // let page = this;
-    // let id = this.dataset.id;
-    // console.log(id);
+  onLoad: function (o) {
+    // console.log(o);
+    let page = this;
+    let id = o.id
+    // console.log(o);
+
 
     // Get api data
     wx.request({
-      url: `https://airtutor777.herokuapp.com/api/v1/bookings/${options.id}`,
+      url: `https://airtutor777.herokuapp.com/api/v1/bookings/${o.id}`,
       method: 'GET',
       success(res) {
-        const booking = res.data.booking;
+        console.log(res.data)
+        // const booking = res.data.booking;
+        const teacher = res.data.user.name;
+        const time = res.data.time;
+        const title = res.data.course_title;
+        const teacher_url = res.data.image_url;
+
 
         // Update local data
         page.setData({
-          booking: booking
+          teacher: teacher,
+          time: time,
+          title: title,
+          teacher_url: teacher_url
+
         });
 
         wx.hideToast();

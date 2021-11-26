@@ -12,6 +12,20 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
+   
+  },
+
+  /**
+   * Lifecycle function--Called when page is initially rendered
+   */
+  onReady: function () {
+
+  },
+
+  /**
+   * Lifecycle function--Called when page show
+   */
+  onShow: function () {
     let page = this;
 
     // Get api data
@@ -30,19 +44,6 @@ Page({
       }
     });
 
-  },
-
-  /**
-   * Lifecycle function--Called when page is initially rendered
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page show
-   */
-  onShow: function () {
 
   },
 
@@ -82,8 +83,8 @@ Page({
   },
   showbooking(e){
 
-    let id = e.currentTarget.dataset
-    // console.log(id)
+    let id = e.currentTarget.dataset.id
+    console.log(id)
     wx.navigateTo ({
       // url: `pages/tutors/tutor_profile/profile?id=${id}`,
       url: `../../bookings/booking_show/booking_show?id=${id}`,

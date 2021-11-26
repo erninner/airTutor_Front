@@ -84,13 +84,35 @@ Page({
   submitForm(e){
     let time = e.detail.value.time;
     let comment = e.detail.value.text;
+    let student_id = 7;
+    let teacher_id = this.data.id;
+    let status = 'pending'
+    let booking = {
+      time: time,
+      comment: comment,
+      status: status,
+      student_id: student_id,
+      teacher_id: teacher_id
+    }
+    wx.request({
+      url: 'https://airtutor777.herokuapp.com/api/v1/bookings',
+      method: 'POST',
+      data: booking,
+      success(){
+        wx.switchTab({
+          url: '/pages/students/student_booking/bookings',
+        })
+      }
+    })
     console.log(time);
     console.log(comment);
 
+    
 
-    wx.switchTab({
-      url: '/pages/students/student_booking/bookings',
-    })
+
+    // wx.switchTab({
+    //   url: '/pages/students/student_booking/bookings',
+    // })
   }
 
 })
