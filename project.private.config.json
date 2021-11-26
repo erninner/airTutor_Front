@@ -83,6 +83,12 @@
           "pathName": "pages/bookings/booking_new_request/booking_new_request",
           "query": "id=7",
           "scene": null
+        },
+        {
+          "name": "pages/students/tutor_profile/tutor_profile",
+          "pathName": "pages/students/tutor_profile/tutor_profile",
+          "query": "",
+          "scene": null
         }
       ]
     }

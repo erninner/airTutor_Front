@@ -9,14 +9,20 @@
   <swiper-item><image mode="widthFix" src="/assets/images/subjects/economics.png"></image></swiper-item>
 </swiper>
 
+<!-- List of tutors -->
 <view  wx:for="{{tutors}}" wx:for-item="tutor" class="card-product" bindtap="showTutor" data-id="{{tutor.id}}" wx:key="key">
+    
     <image src='{{tutor.image_url}}'></image>
+    
     <view class="card-product-infos">
       <view class="h2">{{tutor.user.name}}</view>
       <view class="p">{{tutor.credential}}</view>
     </view>
+
     <button type="primary" size="mini" bindtap="tap" data-id="{{tutor.id}}" wx:key="key" wx:for-item="tutor">Book</button>
   </view>
+
+
 <!-- List of tutors -->
 <!-- <horizontal_card/>
 <horizontal_card/>

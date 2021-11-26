@@ -3,7 +3,8 @@
 <view class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
   Home Page of tutor
 </view>
-<horizontal_card_tutor/>
+
+<horizontal_card_tutor_clean/>
 
 <view class="tab">
   <view class="select-1">
@@ -14,12 +15,45 @@
   </view>
 </view>
 
+<!-- display in all bookings -->
+<!-- card 1 -->
+<view class="card-product-infos">
+<view class="left">
+  <view class="h2">Booking number</view>
+  <view class="p">Student Name</view>
+</view>
+  <view class="time">Time: 11:30am</view>
+</view>
 
+<!-- card 2 -->
+<view class="card-product-infos">
+<view class="left">
+  <view class="h2">Booking number</view>
+  <view class="p">Student Name</view>
+</view>
+  <view class="time">Time: 11:30am</view>
+</view>
+
+<!-- card 3 -->
+<view class="card-product-infos">
+<view class="left">
+  <view class="h2">Booking number</view>
+  <view class="p">Student Name</view>
+</view>
+  <view class="time">Time: 11:30am</view>
+</view>
+
+
+
+
+
+
+<!-- 
 <horizontal_card_booking/>
 <horizontal_card_booking/>
 <horizontal_card_booking/>
 <horizontal_card_booking/>
-<horizontal_card_booking/>
+<horizontal_card_booking/> -->
 
 <view class="tab">
   <view class="select-1-bottom">

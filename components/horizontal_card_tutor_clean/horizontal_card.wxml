@@ -5,6 +5,5 @@
       <view class="h2">{{tutors[0].name}}</view>
       <view class="p">{{tutors[0].credential}}</view>
     </view>
-    <button type="primary" size="mini" bindtap="tap">Book</button>
   </view>
 

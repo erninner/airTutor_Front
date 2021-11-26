@@ -18,6 +18,23 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
+    const page = this
+    wx.request({
+      url: `https://airtutor777.herokuapp.com/api/v1/bookings/`,
+      success(res){
+        console.log(res.data.bookings[0].comment);
+        // console.log(options);
+        // page.setData({
+        //   name: res.data.user.name,
+        //   email: res.data.user.email,
+        //   course_title: res.data.course_title,
+        //   course_info: res.data.course_info,
+        //   credentials: res.data.teaching_credentials,
+        //   id: options.id
+        // })
+        
+      }
+    })
 
   },
 

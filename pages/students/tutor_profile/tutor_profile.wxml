@@ -1,34 +1,22 @@
 <!--pages/profile/profile.wxml-->
-<view class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+<view class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3013&q=80)">
   Tutor Profile
 </view>
 
 <view class="banner">
   <image mode="widthFix" src="/assets/images/terence.png"></image>
+  
   <view class="content">
-    <view class="name"> Name: {{name}}</view>
-    <view class="grade"> Email: {{email}}</view>
-    <view class="school">Course: {{course_title}}</view>
+    <view class="first"><view class="name"> Name: </view> <view>{{name}}</view></view>
+    <view class="second"><view class="grade"> Email:</view> <view>{{email}}</view></view>
+    <view class="third"><view class="school">Course:</view> <view>{{course_title}}</view></view>
   </view>
 </view>
 
 <view class="info"> Course Info: </view>
-<view >{{course_info}}</view>
-
-
-
-  <view class="teaching-style">Teacher's Credentials:</view>
-  <view>{{credentials}}</view>
-
-  <button type="primary" size="mini" bindtap="tap" data-id="{{tutor.id}}" wx:key="key" wx:for-item="tutor">Book</button>
-  <!-- bottom tab -->
-  <!-- <view class="tab">
-    <view bindtap="tap_home" class="select-1-bottom">
-    Home
-    </view>
-    <view class="select-2-bottom">
-    My Profile
-    </view>
-  </view> -->
+<view>{{course_info}}</view>
+<view class="teaching-style">Teacher's Credentials:</view>
+<view>{{credentials}}</view>
+<button type="primary" size="mini" bindtap="tap" data-id="{{tutor.id}}" wx:key="key" wx:for-item="tutor">Book</button>
 
 
