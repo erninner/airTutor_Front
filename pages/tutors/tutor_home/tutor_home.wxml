@@ -1,19 +1,16 @@
 <!--pages/tutors/tutor_home/tutor_home.wxml-->
 
-<view class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
-  Home Page of tutor
-</view>
+<view class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)">Home Page</view>
 
 <horizontal_card_tutor_clean/>
-
-<view class="tab">
+<!-- <view class="tab">
   <view class="select-1">
   Accepted
   </view>
   <view class="select-2">
   Pending
   </view>
-</view>
+</view> -->
 
 <!-- display in all bookings -->
 <!-- card 1 -->
@@ -56,11 +53,7 @@
 <horizontal_card_booking/> -->
 
 <view class="tab">
-  <view class="select-1-bottom">
-  Home
-  </view>
-  <view bindtap="tap_profile" class="select-2-bottom">
-   My Profile
-  </view>
+  <view class="select-1-bottom">Home</view>
+  <view bindtap="tap_profile" class="select-2-bottom">Profile</view>
 </view>
 

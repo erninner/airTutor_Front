@@ -1,8 +1,11 @@
 /* pages/tutors/tutor_home/tutor_home.wxss */
 .tab {
   display: flex;
-  font-size: large;
+  font-size: 20px;
   align-items: center;
+  position:absolute;
+  bottom: 0px;
+  width: 100%;
 }
 
 .select-1 {
@@ -24,17 +27,22 @@
 }
 
 .select-1-bottom {
-  background-color:  greenyellow;
+  background-color:  #1E3A8A;
   width: 50%;
   text-align: center;
   height:50px;
+  font-size: larger;
+  padding-top: 10px;
+  color: white;
 }
 
 .select-2-bottom {
-  background-color:  rgb(153, 153, 153);
+  background-color: #DBEAFE;
   width: 50%;
   text-align: center;
   height:50px;
+  font-size: larger;
+  padding-top: 10px;
 }
 
 .card-category {
