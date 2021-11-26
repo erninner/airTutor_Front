@@ -1,17 +1,26 @@
 <!--pages/profile/profile.wxml-->
-<view class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+<view class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)">
   Student Profile
 </view>
 
 <view class="banner">
-  <image mode="widthFix" src="/assets/images/terence.png"></image>
+  <image mode="widthFix" src="https://thumbs.dreamstime.com/b/studying-kid-9409822.jpg"></image>
   <view class="content">
-    <view class="name"> Name: Terence</view>
-    <view class="grade"> Email: ter@lewagon</view>
-    <view class="school">Grade: 9th</view>
+    <view class="name"> Name: Dylan X</view>
+    <view class="email" style="color: crimson; font-weight: bold;"> School: Le Wagon</view>
+    <view class="grade">Grade: 9th</view>
   </view>
 </view>
 
-<view > Preferences </view>
 
-
+<view class="bottom">
+  <view class="banner-middle"> Preferred Courses </view>
+  <view class="cards">
+    <view class="box" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://img.icons8.com/wired/50/000000/test-tube.png)">
+      Science </view>
+    <view class="box" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://img.icons8.com/wired/50/000000/calculator.png)">
+      Math </view>
+    <view class="box" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://img.icons8.com/wired/50/000000/geography.png)">
+      Geography</view>
+  </view>
+</view>

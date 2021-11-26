@@ -4,15 +4,13 @@
 </view>
 
 <view class="match">
-  <image mode="widthFix" src="{{teacher_url}}"></image>
+  <image mode="widthFix" src="https://source.unsplash.com/400x300/?face,teacher"></image>
   <image mode="widthFix" src="/assets/images/terence.png"></image>
 </view>
 
 
 <view class="content">
   <view class="teacher">Teacher: {{teacher}} </view>
-  <view class="student">Time:{{time}}</view>
-  <view class="student">Course Title:{{title}}</view>
+  <view class="teacher">Time: {{time}}</view>
+  <view class="teacher">Course Title: {{title}}</view>
 </view>
-
-<!-- <button type="primary" bindtap="modify"> Modify Booking</button> -->

@@ -89,6 +89,18 @@
           "pathName": "pages/students/tutor_profile/tutor_profile",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "student_tutor_profile",
+          "pathName": "pages/students/tutor_profile/tutor_profile",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/tutors/tutor_profile/profile",
+          "pathName": "pages/tutors/tutor_profile/profile",
+          "query": "",
+          "scene": null
         }
       ]
     }

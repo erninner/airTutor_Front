@@ -44,37 +44,34 @@ image {
   flex-wrap: wrap;
   padding: 10px;
 }
-.subject .course {
-  background-color: green;
-  /* text-align: center;
-  align-items: center; */
-  border-radius: 20px;
-  width: 60px;
-  height: 30px;
-  text-align: center;
-  display: flex;
-  justify-content: space-evenly;
-}
+
 
 .tab {
   display: flex;
-  font-size: large;
+  font-size: 20px;
   align-items: center;
-  justify-content: flex-end;
-  height:250px;
+  position:absolute;
+  bottom: 0px;
+  width: 100%;
 }
+
 .select-1-bottom {
-  background-color: rgb(153, 153, 153);
+  background-color:#DBEAFE;
   width: 50%;
   text-align: center;
   height:50px;
+  font-size: larger;
+  padding-top: 10px;
 }
 
 .select-2-bottom {
-  background-color:  greenyellow;
+  background-color:#1E3A8A;
   width: 50%;
   text-align: center;
   height:50px;
+  font-size: larger;
+  padding-top: 10px;
+  color: white;
 }
 
 .bottom {
