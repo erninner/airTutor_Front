@@ -8,17 +8,28 @@ Page({
 
   },
 
-  "tap": function (e) {
-    console.log(e);
-    wx.redirectTo({
-      url: '/pages/bookings/booking_show/booking_show'
-    });
-  },
-
   /**
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
+    let page = this;
+
+    // Get api data
+    wx.request({
+      url: "https://airtutor777.herokuapp.com/api/v1/bookings",
+      method: 'GET',
+      success(res) {
+        const bookings = res.data.bookings;
+
+        // Update local data
+        page.setData({
+          bookings: bookings
+        });
+
+        wx.hideToast();
+      }
+    });
+
   },
 
   /**
@@ -68,5 +79,15 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  showbooking(e){
+
+    let id = e.currentTarget.dataset
+    // console.log(id)
+    wx.navigateTo ({
+      // url: `pages/tutors/tutor_profile/profile?id=${id}`,
+      url: `../../bookings/booking_show/booking_show?id=${id}`,
+    })
+  },
+
 })

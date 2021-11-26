@@ -1,30 +1,10 @@
-<view class="card-product">
+<view class="card-product" wx:for="{{bookings}}" wx:for-item="booking" bindtap="showbooking" data-id="{{booking.id}}" wx:key="key">
   <image src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
   <view class="card-product-infos">
-    <view class="h2">Booking 1</view>
-    <text>Booking details </text>
+    <view class="h2">{{booking.comment}}</view>
+    <text>{{booking.status}} </text>
     <view class="flex-container">
-      <button class="mini-btn" bindtap="tap" type="primary" size="mini">Details</button>
-    </view>
-  </view>
-</view>
-<view class="card-product">
-  <image src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
-  <view class="card-product-infos">
-    <view class="h2">Booking 2</view>
-    <text>Booking details </text>
-    <view class="flex-container">
-      <button class="mini-btn" bindtap="tap" type="primary" size="mini">Details</button>
-    </view>
-  </view>
-</view>
-<view class="card-product">
-  <image src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
-  <view class="card-product-infos">
-    <view class="h2">Booking 3</view>
-    <text>Booking details </text>
-    <view class="flex-container">
-      <button class="mini-btn" bindtap="tap" type="primary" size="mini">Details</button>
+      <button class="mini-btn" type="primary" size="mini" bindtap="tap" data-id="{{booking.id}}" wx:key="key" wx:for-item="booking">Details</button>
     </view>
   </view>
 </view>

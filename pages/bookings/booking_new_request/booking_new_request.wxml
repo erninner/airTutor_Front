@@ -1,8 +1,8 @@
 <view style="padding: 70rpx">
-  <view class="h1">Booking Request Form</view>
-  <form catchsubmit="formSubmit" >
-    <view class="name">Student's name</view>
-    <input class="input" name="name" placeholder="your name" value="{{name}}" />
+  <view class="h1">Booking Request Form </view>
+  <view> {{course_title}} taught by {{name}} </view>
+  <form catchsubmit="submitForm" >
+    
 
       
     <view class="name">Proposed Time</view>
@@ -11,6 +11,6 @@
     <view class="name" style="padding-top: 40rpx">Special Request</view>
     <textarea class="input" name="text" placeholder="your course offering and description" value="{{text}}" />
 
-    <button style="margin: 30rpx 0" bindtap="return_to_booking" type="primary" formType="submit">Submit Request</button>
+    <button style="margin: 30rpx 0" bindtap="submitForm" type="primary" formType="submit">Submit Request</button>
   </form>
 </view>

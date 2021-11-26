@@ -17,7 +17,25 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
+    // let page = this;
+    // let id = this.dataset.id;
+    // console.log(id);
 
+    // Get api data
+    wx.request({
+      url: `https://airtutor777.herokuapp.com/api/v1/bookings/${options.id}`,
+      method: 'GET',
+      success(res) {
+        const booking = res.data.booking;
+
+        // Update local data
+        page.setData({
+          booking: booking
+        });
+
+        wx.hideToast();
+      }
+    });
   },
 
   /**
